@@ -1,0 +1,193 @@
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+	background-color: white;
+	border:1px none #cccccc;
+	height: 100px;
+	text-align: center; 
+	line-height: 100px;
+	font-family: "Times New Roman", Times, serif;
+	margin: auto;
+	width: 85%;
+	position: relative;
+	flex: 0 0 auto;
+
+}
+
+.nameHeader{
+	background-color: #4aaaa5;
+	color: white;
+	width: 30%;
+	float: left;
+	margin-left: 100px;
+	font-size: 35px;
+	position: absolute;
+	font-weight: bold;
+}
+
+li.listHeader{
+	float: left; 
+	color: #777777;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 0px 10px;
+}
+
+
+li a:visited{
+	color:#777777;
+}
+li a:hover{
+	color:teal;
+}
+li a:active{
+	color:#777777;
+}
+
+section{
+	background-color: white;
+	color: teal;
+	font-size: 18px;
+	width: 60%;
+	height: 80%;
+	border : 1px solid #dddddd;
+	position: absolute;
+	left: 100px;
+	border: 2px outset white;
+	top: 50px;
+	font-family: Arial, Helvetica, sans-serif;	
+	
+}
+
+p{
+	text-align: justify;
+	color: teal;
+	overflow: auto;
+	padding: 5px 15px 15px;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+aside{
+	display: inline-block;
+	background-color: white;
+	width: 25%;
+	height: 200px;
+	border : 1px outset #dddddd;
+	right: 40px;
+	position: absolute;
+	float: right;
+	border: 2px outset white;
+	top: 50px;
+	text-align: center;
+}
+
+aside a{
+	padding: 5px;
+}
+footer{
+	flex: 0 0 auto;
+	height: 100px;
+	background: #666666;
+	border-top: 10px solid teal;
+	text-align: center;
+	padding: 20px;
+}
+
+form{
+
+	padding: 10px;
+	font-size: 15px;
+	color: #777777;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	overflow: auto;
+
+}
+
+input, textarea{
+	padding: 3px;
+	margin: 10px 0px;
+	color: #777777;
+	border: 1px solid lightgrey;
+}
+button{
+	padding: 9px;
+	width: 100px;
+	height: 40px;
+	background: teal;
+	border: 1px solid teal;
+	border-radius: 5%;
+	color: white;
+	font-size: 20px;
+}
+button:focus{
+	border: 2px outset teal;
+}
+button:hover{
+	border: 2px outset teal;
+}
+a:link{
+	text-decoration: none;
+}
+
+h2{
+	font-size: 1.5em;;
+	font-weight: bolder;
+	padding: 15px;
+	color: teal;
+}
+
+.container{
+	background-color: #dddddd;
+	border:1px inset #dddddd;
+	clear: both;
+	margin: auto;
+	width: 85%;
+	position: relative;
+	flex: 1 0 auto;
+	overflow: auto;
+	background-image: url("../img/ep_naturalwhite.png");
+}
+
+.image{
+	position: relative;
+	width: 100%;
+	display: inline;
+}
+.image h2{
+	position: absolute;
+	bottom: 25px;
+	margin:20px;
+	left: .1px;
+	background: teal;
+	color: white;
+	width: 250PX;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "Arial";
+}
+
+.image img{
+			margin: 30px 20px;
+			margin-right: 20px;
+}
+.intro{
+	padding: 10px;
+	display: inline;
+}
